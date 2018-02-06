@@ -10,7 +10,7 @@ hide_edge_borders both
 for_window [class="^.*"] border pixel 1
 gaps inner 15
 gaps outer 0
-font pango:mono 9
+font variable:size=11
 set $mod Mod4
 set $term urxvt
 set $video --no-startup-id bash ~/.config/Scripts/video.sh
@@ -121,7 +121,7 @@ for_window [instance="math"] floating enable
 for_window [instance="math"] resize set 800 300
 for_window [instance="math"] move position center
 for_window [instance="math"] move scratchpad
-exec --no-startup-id $term -fn "xft:mono:pixelsize=24" -name math -e R -q
+exec --no-startup-id $term -fn "xft:mono:pixelsize=22" -name math -e R -q
 
 
 ###---Basic Bindings---###

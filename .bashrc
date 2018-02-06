@@ -18,10 +18,10 @@ backup() {
   rsync -avz --partial --progress --rsh="ssh -p 19132" ~/Pictures/memes/ wlmr@82.103.140.214:~/storage/memes;
   rsync -avz --partial --progress --rsh="ssh -p 19132" ~/Documents/ wlmr@82.103.140.214:~/storage/Documents ;
 }
+
+alias mhallonetlocal="sshfs wlmr@192.168.1.100:storage ~/server -p 19132"
 alias mhallonet="sshfs wlmr@82.103.140.214:storage ~/server -p 19132"
 alias hallonet="ssh -p 19132 wlmr@82.103.140.214"
-#alias hallonet="ssh -p 19132 wlmr@31.208.39.213"
-#alias hallonet="ssh -p 19132 pi@185.213.152.168"
 
 eval "$(stack --bash-completion-script stack)"
 alias vpnon="systemctl start openvpn-client@mullvad"

@@ -47,4 +47,4 @@
 
 * Add: 'Option "XkbOptions" "caps:swapescape"' into /etc/X11/xorg.conf.d/00-keyboard.conf to swap caps with escape
 
-
+* Uncomment the Color line in /etc/pacman.conf
