@@ -30,6 +30,7 @@
 * xclip
 * networkManager
 * pulseaudio and all the others in the family
+* r 
 ### AUR
 * pacaur
 * vim-pathogen
