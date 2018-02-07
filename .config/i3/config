@@ -19,6 +19,8 @@ set $flash --no-startup-id bash ~/.config/Scripts/flash_win.sh
 set $BROWSER firefox
 set $PATH $PATH:$HOME/.local/bin
 ###---Starting External Scripts---###
+#keeps screen on
+exec -no-startup-id caffeine -a
 #Add wallpaper:
 exec_always --no-startup-id wal -a 98 -c -i ~/.config/wall.png 
 #Music player daemon:
