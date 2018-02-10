@@ -2,12 +2,13 @@
   "name": "dunkelt-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "everything is colored and nice",
   "keywords": [
-    "syntax",
-    "theme"
+    "vivid",
+    "dark background",
+    "colorful"
   ],
-  "repository": "https://github.com/atom/dunkelt-syntax",
+  "repository": "https://github.com/Wlmr/dunkelt-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
